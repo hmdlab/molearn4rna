@@ -32,7 +32,7 @@ Obtained from the other repository are the following:
 
 ## Repository structure
 
-molearn4rna/ <br>
+molearn4rna-main/ <br>
 ├── data/               * Input datasets for training and conformation generation <br>
 ├── examples/           * sample scripts for training and conformation generation <br>
 ├── results/            * Output results (QRNA opt. structures) <br>
@@ -77,7 +77,7 @@ For other packages, dependencies are described in the ' src/environment/molearnA
 &nbsp;&nbsp;&nbsp;% conda install pytorch torchvision torchaudio cpuonly -c pytorch #<--install torch <br>
  <br>
 2) Modify molearn to apply it to RNA <br>
-* Download “molearn4rna.zip” from https://github.com/hmdlab/molearn4rna in advance. <br>
+* Download “molearn4rna-main.zip” from https://github.com/hmdlab/molearn4rna in advance. <br>
 * Copy items in the molearn4rna into the molearn installed directory <br>
 &nbsp;&nbsp;&nbsp;%cp PATH/To/molearn4rna/src/molearn/*.py PATH/To/conda_local/conda/envs/molearnA/lib/python3.10/site-packages/molearn <br>
 &nbsp;&nbsp;&nbsp;%cp PATH/To/molearn4rna/src/parameters/* PATH/To/conda_local/conda/envs/molearnA/lib/python3.10/site-packages/molearn/parameters <br>
