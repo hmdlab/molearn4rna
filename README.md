@@ -65,8 +65,8 @@ For other packages, dependencies are described in the ' src/environment/molearnA
 &nbsp;&nbsp;&nbsp;% cd PATH/to/the working directory <br>
 &nbsp;&nbsp;&nbsp;% unzip molearn-diffusion.zip <br>
 &nbsp;&nbsp;&nbsp;% cd molearn-diffusion <br>
-&nbsp;&nbsp;&nbsp;% conda create --name  molearnA   python=3.10 <br>
-&nbsp;&nbsp;&nbsp;% conda activate molearnA <br>
+&nbsp;&nbsp;&nbsp;% conda create --name  molearn4rna   python=3.10 <br>
+&nbsp;&nbsp;&nbsp;% conda activate molearn4rna <br>
 &nbsp;&nbsp;&nbsp;% conda install  numpy cython  scipy  pandas scikit-learn #<--required for installing biobox  <br>
 &nbsp;&nbsp;&nbsp;% pip install openmm #<-- install openmm <br>
 &nbsp;&nbsp;&nbsp;% git clone https://github.com/Degiacomi-Lab/biobox.git<--download biobox <br>
