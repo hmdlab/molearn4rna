@@ -78,14 +78,14 @@ For other packages, dependencies are described in the ' src/environment/molearnA
  <br>
 2) Modify molearn to apply it to RNA <br>
 * Download “molearn4rna-main.zip” from https://github.com/hmdlab/molearn4rna in advance. <br>
-* Copy items in the molearn4rna into the molearn installed directory <br>
-&nbsp;&nbsp;&nbsp;%cp PATH/To/molearn4rna/src/molearn/*.py PATH/To/conda_local/conda/envs/molearnA/lib/python3.10/site-packages/molearn <br>
-&nbsp;&nbsp;&nbsp;%cp PATH/To/molearn4rna/src/parameters/* PATH/To/conda_local/conda/envs/molearnA/lib/python3.10/site-packages/molearn/parameters <br>
-&nbsp;&nbsp;&nbsp;%cd PATH/To/conda_local/conda/envs/molearnA/lib/python3.10/site-packages/molearn <br>
+* Copy items in the molearn4rna-main into the molearn installed directory <br>
+&nbsp;&nbsp;&nbsp;%cp PATH/To/molearn4rna-main/src/molearn/*.py PATH/To/conda_local/conda/envs/molearn4rna/lib/python3.10/site-packages/molearn <br>
+&nbsp;&nbsp;&nbsp;%cp PATH/To/molearn4rna-main/src/parameters/* PATH/To/conda_local/conda/envs/molearn4rna/lib/python3.10/site-packages/molearn/parameters <br>
+&nbsp;&nbsp;&nbsp;%cd PATH/To/conda_local/conda/envs/molearn4rna/lib/python3.10/site-packages/molearn <br>
  <br>
 3) Run Examples
 * Download PDB files for the example from https://waseda.app.box.com/folder/300778804035?v=data-molearn4rna and copy PATH/To/molearn4rna/data <br>
-* Download trained molearn models for the example from https://waseda.app.box.com/folder/300778804035?v=data-molearn4rna and copy PATH/To/molearn4rna/rusults/model <br>
+* Download trained molearn models for the example from https://waseda.app.box.com/folder/300778804035?v=data-molearn4rna and copy PATH/To/molearn4rna-main/rusults/model <br>
 &nbsp;&nbsp;&nbsp;% cd PATH/To/molearn4rna/examples <br>
 &nbsp;&nbsp;&nbsp;% chmod +x *sh <br>
 &nbsp;&nbsp;&nbsp;% ./run_Traning_Molearn.sh  <br>
