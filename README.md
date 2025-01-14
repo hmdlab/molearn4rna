@@ -67,7 +67,7 @@ For other packages, dependencies are described in the ' src/environment/molearnA
 &nbsp;&nbsp;&nbsp;% unzip molearn-diffusion.zip <br>
 &nbsp;&nbsp;&nbsp;% cd molearn-diffusion <br>
 &nbsp;&nbsp;&nbsp;% conda create --name  molearn4rna   python=3.10 <br>
-&nbsp;&nbsp;&nbsp;( or % conda env create -f PATH/TO/molearn4rna-main/src/environment/molearn4rna.yml <br>)
+&nbsp;&nbsp;&nbsp;( or % conda env create -f PATH/TO/molearn4rna-main/src/environment/molearn4rna.yml)<br>
 &nbsp;&nbsp;&nbsp;% conda activate molearn4rna <br>
 &nbsp;&nbsp;&nbsp;% conda install  numpy cython  scipy  pandas scikit-learn #<--required for installing biobox  <br>
 &nbsp;&nbsp;&nbsp;                                                          #<--If molearn4rna is created via the yml file, this step could be skipped.
