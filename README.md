@@ -70,7 +70,7 @@ For other packages, dependencies are described in the ' src/environment/molearnA
 &nbsp;&nbsp;&nbsp;( or % conda env create -f PATH/TO/molearn4rna-main/src/environment/molearn4rna.yml)<br>
 &nbsp;&nbsp;&nbsp;% conda activate molearn4rna <br>
 &nbsp;&nbsp;&nbsp;% conda install  numpy cython  scipy  pandas scikit-learn #<--required for installing biobox  <br>
-&nbsp;&nbsp;&nbsp;                                                          #<--If molearn4rna is created via the yml file, this step could be skipped.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  #<--If molearn4rna is created via the yml file, this step could be skipped <br>
 &nbsp;&nbsp;&nbsp;% pip install openmm #<-- install openmm <br>
 &nbsp;&nbsp;&nbsp;% git clone https://github.com/Degiacomi-Lab/biobox.git<--download biobox <br>
 &nbsp;&nbsp;&nbsp;% cd biobox  <br>
@@ -78,7 +78,7 @@ For other packages, dependencies are described in the ' src/environment/molearnA
 &nbsp;&nbsp;&nbsp;% cd ../ <br>
 &nbsp;&nbsp;&nbsp;% pip install . #<--install molearn <br>
 &nbsp;&nbsp;&nbsp;% conda install pytorch torchvision torchaudio cpuonly -c pytorch #<--install torch <br>
-&nbsp;&nbsp;&nbsp;                                                                  #<--If molearn4rna is created via the yml file, this step could be skipped.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                  #<--If molearn4rna is created via the yml file, this step could be skipped <br>
  <br>
 2) Modify molearn to apply it to RNA <br>
 * Download “molearn4rna-main.zip” from https://github.com/hmdlab/molearn4rna in advance. <br>
