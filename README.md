@@ -84,9 +84,9 @@ For other packages, dependencies are described in the ' src/environment/molearnA
 &nbsp;&nbsp;&nbsp;%cd PATH/To/conda_local/conda/envs/molearn4rna/lib/python3.10/site-packages/molearn <br>
  <br>
 3) Run Examples
-* Download PDB files for the example from https://waseda.app.box.com/folder/300778804035?v=data-molearn4rna and copy PATH/To/molearn4rna/data <br>
+* Download PDB files for the example from https://waseda.app.box.com/folder/300778804035?v=data-molearn4rna and copy PATH/To/molearn4rna-main/data <br>
 * Download trained molearn models for the example from https://waseda.app.box.com/folder/300778804035?v=data-molearn4rna and copy PATH/To/molearn4rna-main/rusults/model <br>
-&nbsp;&nbsp;&nbsp;% cd PATH/To/molearn4rna/examples <br>
+&nbsp;&nbsp;&nbsp;% cd PATH/To/molearn4rna-main/examples <br>
 &nbsp;&nbsp;&nbsp;% chmod +x *sh <br>
 &nbsp;&nbsp;&nbsp;% ./run_Traning_Molearn.sh  <br>
 * Computation may take several hour with standard CPU machine. <br> 
