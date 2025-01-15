@@ -1,4 +1,4 @@
-name: molearn4rnaRE
+name: molearn4rna
 channels:
   - pytorch
   - defaults
